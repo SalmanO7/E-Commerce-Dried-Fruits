@@ -1,1 +1,1 @@
-# E-Commerce Grocery App
+# E-Commerce Dried Fruits App
