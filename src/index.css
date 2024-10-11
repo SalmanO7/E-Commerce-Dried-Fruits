@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .user-icon,
+    .cart-icon {
+        @apply border border-gray-300 rounded-full w-[35px] h-[35px] grid place-items-center text-[22px]
+    }
+    .feature_btn{
+        @apply bg-accent text-white px-4 py-1 rounded-full hover:bg-accentDark cursor-pointer
+    }
+}
+body{
+    font-family: "Poppins";
+}
+
+@media screen and (max-width: 1279px) {
+    .last-card {
+        margin-top: -220px !important;
+    }
+}
+
+@media screen and (max-width: 1015px) {
+    .last-card {
+        margin-top: -170px !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .last-card {
+        margin-top: -150px !important;
+        height: 65% !important;
+        
+    }
+}
+
+@media screen and (max-width: 608px) {
+    .last-card {
+        margin-top: -140px !important;
+    }
+    .card-img{
+        padding-top: 50px !important;
+        padding-bottom: 50px !important;
+    }
+}
+
+@media screen and (max-width: 555px) {
+    .last-card {
+        margin-top: -110px !important;
+
+    }
+}
+
+/* @media screen and (max-width: 608px) {
+    .last-card {
+        margin-top: -140px !important;
+    }
+} */
