@@ -35,4 +35,3 @@ A modern, fully responsive e-commerce web application built with **React**, **Ty
 ├── tailwind.config.js       # TailwindCSS configuration
 ├── package.json             # Project dependencies
 └── vite.config.ts           # Vite configuration
-
